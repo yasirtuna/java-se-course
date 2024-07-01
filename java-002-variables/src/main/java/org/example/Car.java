@@ -61,7 +61,5 @@ public class Car {
         System.out.println("Kapı adeti: " + kapiAdeti);
         System.out.println("---------------------------------------");
     }
-
-
 //    Ülke.Şehir.İlçe.Köy.Sokak.Ev.No.Kat.Daire
 }
