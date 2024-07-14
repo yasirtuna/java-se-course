@@ -1,44 +1,52 @@
 package com.yasirtuna.model;
 
-import jakarta.persistence.*;
+// import javax.persistence.*;    // 2.x.y
+import jakarta.persistence.*;  // 3.x.y
 import lombok.*;
 
-@Setter
-@Getter
+
+
+@Data // =  @Setter + @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
 
 @Entity
-@Table(name="students")
-
-// POJO
+@Table(name = "students")
 public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
+
     private String firstName;
+
     private String lastName;
+
+    // FIXME tekil olacak.
     private String email;
+
+
 
 /*
     public Student() {
-
     }
 
-    public Student(int id, String firstName, String lastName, String email) {
+
+    public Student(Long id, String firstName, String lastName, String email) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
 
-    public int getId() {
+
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -64,7 +72,6 @@ public class Student {
 
 
 
-
     public String getEmail() {
         return email;
     }
@@ -73,5 +80,17 @@ public class Student {
         this.email = email;
     }
 
-   */
+
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+    */
+
 }
