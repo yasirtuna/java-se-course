@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java-003-loops/pom.xml" />
+        <option value="$PROJECT_DIR$/java-005-switch/pom.xml" />
+        <option value="$PROJECT_DIR$/java-007-arrays/pom.xml" />
+        <option value="$PROJECT_DIR$/java-006-methods/pom.xml" />
+        <option value="$PROJECT_DIR$/java-002-variables/pom.xml" />
+        <option value="$PROJECT_DIR$/java-004-if-ifelse/pom.xml" />
+        <option value="$PROJECT_DIR$/java-001-hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/java-035-spring-boot-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/java-036-spring-boot-exception/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

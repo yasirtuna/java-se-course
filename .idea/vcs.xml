@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-002-variables" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-003-loops" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-004-if-ifelse" vcs="Git" />
+  </component>
+</project>
